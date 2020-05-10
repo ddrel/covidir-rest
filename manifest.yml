@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 1024M
+  host: covid19-ir-rest
+  name: covid19-ir-rest
+  command: npm start
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 2048M
